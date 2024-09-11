@@ -1,31 +1,32 @@
-.home-page{
-    position: fixed;;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 20px;
+.home-page {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 20px;
+  overflow: auto;
 }
-.home-nav{
-    display: flex;
-    justify-content: space-between;
-    padding:0 20px;
-    align-items: center;
+.home-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
 }
-.home-title{
-    font-size: 30px;
-    font-weight: 600;
-    cursor: pointer;
+.home-title {
+  font-size: 30px;
+  font-weight: 600;
+  cursor: pointer;
 }
-.add-post-btn:hover{
-    color: #000;
+.add-post-btn:hover {
+  color: #000;
 }
-.add-post-btn{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    font-size: 20px;
-    cursor: pointer;
-    color: #717171;
-    border: 2px solid #717171;
+.add-post-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  color: #717171;
+  border: 2px solid #717171;
 }

@@ -4,6 +4,4 @@
   justify-content: left;
   flex-wrap: wrap;
   gap: 10px;
-  height: 100%;
-  overflow: auto;
 }
